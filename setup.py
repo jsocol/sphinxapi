@@ -8,7 +8,7 @@ setup(
     author='Sphinx Technologies Inc',
     url='http://github.com/jsocol/sphinxapi',
     license='GPL',
-    packages='sphinxapi',
+    packages=('sphinxapi',),
     include_package_data=True,
     zip_safe=False,
     classifiers=[
